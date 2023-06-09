@@ -5,8 +5,9 @@ body {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  background: url('https://modash.blob.core.windows.net/uploads/e4789c02-c7ec-4017-a410-44b6def4be41?sv=2018-03-28&sr=b&sig=Pk4Nsi%2Bxtju2%2B7TgaWxMz8vMvKgmB7wwfwW%2BCimEHKQ%3D&st=2023-06-09T09%3A13%3A50Z&se=2023-06-09T12%3A18%3A50Z&sp=r&rscc=max-age%3D10800%2Cprivate') no-repeat center / cover;
+  font-family: "Poppins", sans-serif;
+  background: url("https://modash.blob.core.windows.net/uploads/e4789c02-c7ec-4017-a410-44b6def4be41?sv=2018-03-28&sr=b&sig=Pk4Nsi%2Bxtju2%2B7TgaWxMz8vMvKgmB7wwfwW%2BCimEHKQ%3D&st=2023-06-09T09%3A13%3A50Z&se=2023-06-09T12%3A18%3A50Z&sp=r&rscc=max-age%3D10800%2Cprivate")
+    no-repeat center / cover;
 }
 
 button {
@@ -45,7 +46,7 @@ main {
 
 .todos {
   display: grid;
-  grid-template-areas: 'todos-nav add-todo-form' 'todos-nav todos-list';
+  grid-template-areas: "todos-nav add-todo-form" "todos-nav todos-list";
   grid-template-columns: min-content 1fr;
   grid-template-rows: auto 1fr;
   gap: 0 16px;
@@ -89,12 +90,12 @@ main {
   justify-content: space-between;
   flex-wrap: wrap;
 
-  input[type='text'] {
+  input[type="text"] {
     flex: 1;
     flex-basis: 100%;
   }
 
-  input[type='date'] {
+  input[type="date"] {
     flex: 1;
   }
 
@@ -185,11 +186,11 @@ main {
   #add-todo-form {
     flex-wrap: nowrap;
 
-    input[type='text'] {
+    input[type="text"] {
       flex-basis: inherit;
     }
 
-    input[type='date'] {
+    input[type="date"] {
       flex: inherit;
     }
   }

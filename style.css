@@ -6,8 +6,9 @@ body {
 
 body {
   font-family: "Poppins", sans-serif;
-  
-  background: url("https://modash.blob.core.windows.net/uploads/e4789c02-c7ec-4017-a410-44b6def4be41?sv=2018-03-28&sr=b&sig=Pk4Nsi%2Bxtju2%2B7TgaWxMz8vMvKgmB7wwfwW%2BCimEHKQ%3D&st=2023-06-09T09%3A13%3A50Z&se=2023-06-09T12%3A18%3A50Z&sp=r&rscc=max-age%3D10800%2Cprivate") no-repeat center/cover;
+
+  background: url("https://modash.blob.core.windows.net/uploads/e4789c02-c7ec-4017-a410-44b6def4be41?sv=2018-03-28&sr=b&sig=Pk4Nsi%2Bxtju2%2B7TgaWxMz8vMvKgmB7wwfwW%2BCimEHKQ%3D&st=2023-06-09T09%3A13%3A50Z&se=2023-06-09T12%3A18%3A50Z&sp=r&rscc=max-age%3D10800%2Cprivate")
+    no-repeat center/cover;
 }
 
 button {
@@ -52,7 +53,7 @@ main {
   padding: 24px;
   background-color: rgba(255, 255, 255, 0.8);
   -webkit-backdrop-filter: blur(2px);
-          backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
   border-radius: 16px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -75,7 +76,7 @@ main {
 }
 #todos-nav button {
   -moz-column-gap: 8px;
-       column-gap: 8px;
+  column-gap: 8px;
   width: 100%;
 }
 
@@ -85,11 +86,11 @@ main {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-#add-todo-form input[type=text] {
+#add-todo-form input[type="text"] {
   flex: 1;
   flex-basis: 100%;
 }
-#add-todo-form input[type=date] {
+#add-todo-form input[type="date"] {
   flex: 1;
 }
 #add-todo-form input {
@@ -101,7 +102,8 @@ main {
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
   transition: all 300ms ease-in-out;
 }
-#add-todo-form input:hover, #add-todo-form input:active {
+#add-todo-form input:hover,
+#add-todo-form input:active {
   background-color: #fff;
 }
 
@@ -165,10 +167,10 @@ main {
   #add-todo-form {
     flex-wrap: nowrap;
   }
-  #add-todo-form input[type=text] {
+  #add-todo-form input[type="text"] {
     flex-basis: inherit;
   }
-  #add-todo-form input[type=date] {
+  #add-todo-form input[type="date"] {
     flex: inherit;
   }
-}/*# sourceMappingURL=styles.css.map */
+} /*# sourceMappingURL=styles.css.map */
